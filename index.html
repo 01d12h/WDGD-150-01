@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Instagram</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="profile-container">
+    
+    <div class="logo">
+      <a href="index.html">
+        <img src="images/0-dark.png" alt="Logo">
+      </a>
+    </div>
+
+    <header class="profile">
+      <div class="profile-pic">
+        <img src="images/1.jpg" alt="Profile Picture" id="profile-img">
+      </div>
+
+      <div class="profile-info">
+        <!-- 사용자 이름 입력 필드 (왼쪽 정렬) -->
+        <input type="text" id="nameInput" placeholder="Type your name" />
+
+        <div class="profile-follow">
+          <span><strong>Post</strong> 3</span>
+          <span><strong>Follower</strong> 1</span>
+          <span><strong>Following</strong> 1</span>
+        </div>
+
+        <!-- 입력된 이름이 반영될 부분 -->
+        <p><strong id="displayName">My Name</strong></p>
+        <p id="introduction">This is my Instagram, enjoy!</p>
+      </div>
+    </header>
+
+    <div class="highlight">
+      <div class="story">
+        <img src="images/2.jpg" alt="Story 1">
+        <p>🎓</p>
+      </div>
+      <div class="story">
+        <img src="images/plus-dark.png" alt="Story add">
+        <p>New</p>
+      </div>
+    </div>
+
+    <div class="post" id="postContainer">
+      <img src="images/3.jpg" alt="Post 1">
+      <img src="images/4.jpg" alt="Post 2">
+      <img src="images/5.jpg" alt="Post 3">
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
